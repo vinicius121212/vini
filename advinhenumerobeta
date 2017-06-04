@@ -1,0 +1,30 @@
+#importa bibliotecas
+# random e o fator de aleatoriedade usado para sortear
+import random
+
+#nomeia o random
+rand = random.randrange(0, 20)
+
+print '##advinhe o numero##'
+print 'mude o numero cercado por Xs para escolher outro numero outro numero'
+print 'false = errou/true = acertou'
+print
+
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x = 1 #xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+y = rand
+
+
+
+
+
+
+
+
+
+# mostra os resultados 
+print 'o numero sortiado foi' ,rand
+print 'o numero escolhido foi' ,x
+print
+print x == y 
